@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
         {
             fatal("Can't open file");
         }
-        char c;
+        int c;
         while((c = getc(file)) != EOF)
         {
             putchar(c);
